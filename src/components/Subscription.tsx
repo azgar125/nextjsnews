@@ -8,11 +8,12 @@ const Subscription = () => {
       <hr className=' w-[200px] h-1 bg-slate-500' />
       <p className='text-md md:text-xl font-semibold '>Subscribe our newsletter to stay updated every moment</p>
       <div className=' flex flex-col md:flex-row w-[500px] max-w-sm gap-5 items-center '>
-        <input type='E-mail' placeholder='Enter a valid email address' className=' p-1 w-full border border-slate-300 bg-gray-200' />
-        <Button variant={'default'} className=' w-full md:w-auto hover:cursor-pointer'>Submit</Button>
+        <input type='E-mail' placeholder='Enter a valid email address' className=' w-3/4 p-1 md:w-full border border-slate-300 bg-gray-200' />
+        <Button variant={'default'} className='w-3/4 md:w-auto hover:cursor-pointer'>Submit</Button>
       </div>
     </div>
   )
 }
 
 export default Subscription
+
